@@ -60,7 +60,7 @@ liff.$stripeCheckoutButton.bind(button, {
 
 <p>
 
-## - 初期化処理
+### - 初期化処理
 StripeのAPIを使用するために、プラグインにご自身のStripeアカウントの公開可能キーを設定します。
 ```Javascript
 liff.$stripeCheckoutButton.init({
@@ -76,7 +76,7 @@ liff.$stripeCheckoutButton.init({
 <p>
 <br>
 
-## - 支払いボタンの設置
+### - 支払いボタンの設置
 特定の要素をクリックしたときに、支払い画面へ遷移させます。
 ```Javascript
 const button = document.getElementById('checkout-button');
