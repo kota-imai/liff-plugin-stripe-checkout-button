@@ -70,7 +70,7 @@ liff.$stripeCheckoutButton.init({
 
 【引数の項目】
 
-- apiKey <span style="color: red; font-size: x-small">REQUIRED</span> ...  Stripeの公開可能キー。[Stripeのダッシュボード](https://dashboard.stripe.com/apikeys)から取得してください。
+- apiKey `REQUIRED` ...  Stripeの公開可能キー。[Stripeのダッシュボード](https://dashboard.stripe.com/apikeys)から取得してください。
 </p>
 
 <p>
@@ -95,9 +95,9 @@ liff.$stripeCheckoutButton.bind(button, {
 
 【引数の項目】
 
-- priceId <span style="color: red; font-size: x-small">REQUIRED</span> ... 商品の価格ID。[Stripeのダッシュボード](https://dashboard.stripe.com/test/products?active=true)から取得してください。
-- successUrl <span style="color: red; font-size: x-small">REQUIRED</span> ... 決済成功時に遷移する先のURL、サンキューページ
-- cancelUrl <span style="color: red; font-size: x-small">REQUIRED</span> ... 決済をキャンセルした時に遷移する先のURL
+- priceId `REQUIRED` ... 商品の価格ID。[Stripeのダッシュボード](https://dashboard.stripe.com/test/products?active=true)から取得してください。
+- successUrl `REQUIRED` ... 決済成功時に遷移する先のURL、サンキューページ
+- cancelUrl `REQUIRED` ... 決済をキャンセルした時に遷移する先のURL
 - quantity ... 数量。デフォルト→1
 - mode ... 単発決済は `'payment'`、継続課金は `'subscription'`、デフォルト→`'payment'`
 - customerEmail ... 顧客のメールアドレス。決済画面に Prefill されます。
